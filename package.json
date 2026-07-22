@@ -1,0 +1,9 @@
+{
+  "name": "yuca-devolutiva-n2",
+  "version": "1.0.0",
+  "description": "Webhook HubSpot -> OpenAI -> HubSpot: aprimora a Devolutiva de N2 e grava no contato para envio via Treble.",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
