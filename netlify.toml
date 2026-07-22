@@ -1,0 +1,10 @@
+[build]
+  functions = "netlify/functions"
+  publish = "public"
+
+[functions]
+  node_bundler = "esbuild"
+
+# A function fica acessível em:
+#   https://<seu-site>.netlify.app/.netlify/functions/hubspot-webhook
+# É esse o targetUrl que você registra na Webhooks API do HubSpot.
